@@ -1,0 +1,8 @@
+[book]
+title = "Simple Mermaid Example"
+description = "Minimal example of mdbook-mermaid-mmdr"
+
+
+[preprocessor.mermaid-mmdr]
+command = "../../target/debug/mdbook-mermaid-mmdr"
+theme = "modern"

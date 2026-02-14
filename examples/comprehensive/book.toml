@@ -1,0 +1,8 @@
+[book]
+title = "Mermaid MMDR Showcase"
+authors = ["Antigravity"]
+description = "Showcase of mdbook-mermaid-mmdr preprocessor"
+
+[preprocessor.mermaid-mmdr]
+command = "../../target/debug/mdbook-mermaid-mmdr"
+theme = "modern"

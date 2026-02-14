@@ -1,0 +1,12 @@
+[book]
+title = "Themed Mermaid Example"
+description = "Example with custom theme variables"
+
+[preprocessor.mermaid-mmdr]
+command = "../../target/debug/mdbook-mermaid-mmdr"
+theme = "modern"
+
+[preprocessor.mermaid-mmdr.theme_variables]
+primary_color = "#ffcccc"
+line_color = "#ff0000"
+secondary_color = "#ccffcc"

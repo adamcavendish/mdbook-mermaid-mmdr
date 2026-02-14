@@ -1,0 +1,39 @@
+[
+  {
+    "root": "/path/to/book",
+    "config": {
+      "book": {
+        "title": "Test Book",
+        "authors": [
+          "Author"
+        ],
+        "description": "A test book for mermaid-mmdr"
+      },
+      "preprocessor": {
+        "mermaid-mmdr": {
+          "command": "mdbook-mermaid-mmdr"
+        }
+      }
+    },
+    "renderer": "html",
+    "mdbook_version": "0.4.37"
+  },
+  {
+    "sections": [
+      {
+        "Chapter": {
+          "name": "Test Chapter",
+          "content": "# Test Chapter\n\nHere is a mermaid diagram:\n\n```mermaid\ngraph TD;\n    A-->B;\n```\n\nAnd some text after.",
+          "number": [
+            1
+          ],
+          "sub_items": [],
+          "path": "test_chapter.md",
+          "source_path": "test_chapter.md",
+          "parent_names": []
+        }
+      }
+    ],
+    "__non_exhaustive": null
+  }
+]

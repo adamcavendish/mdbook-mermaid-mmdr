@@ -1,0 +1,17 @@
+{
+  "root": "/path/to/book",
+  "config": {
+    "book": {
+      "title": "Test Book",
+      "authors": ["Author"],
+      "description": "A test book for mermaid-mmdr"
+    },
+    "preprocessor": {
+      "mermaid-mmdr": {
+        "command": "mdbook-mermaid-mmdr"
+      }
+    }
+  },
+  "renderer": "html",
+  "mdbook_version": "0.4.37"
+}

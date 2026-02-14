@@ -1,0 +1,6 @@
+# Rust artifacts
+/target
+
+# mdbook generated outputs
+/examples/*/book/
+

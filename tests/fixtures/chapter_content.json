@@ -1,0 +1,11 @@
+{
+  "Chapter": {
+    "name": "Test Chapter",
+    "content": "# Test Chapter\n\nHere is a mermaid diagram:\n\n```mermaid\ngraph TD;\n    A-->B;\n```\n\nAnd some text after.",
+    "number": [1],
+    "sub_items": [],
+    "path": "test_chapter.md",
+    "source_path": "test_chapter.md",
+    "parent_names": []
+  }
+}

@@ -43,6 +43,17 @@ graph TD
 
 This applies only to the single diagram and takes precedence over `book.toml` settings.
 
+Here is a live example using the default theme configured for this book:
+
+```mermaid
+graph TD
+    A[Theme from book.toml] --> B[theme_variables override]
+    B --> C[Per-diagram init directive]
+    style A fill:#e8f4fd
+    style B fill:#fff3cd
+    style C fill:#d4edda
+```
+
 ## Background Color
 
 The background color is independent of the theme and can be set separately:

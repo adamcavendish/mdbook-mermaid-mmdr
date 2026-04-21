@@ -21,9 +21,25 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install dependencies (Linux)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libfontconfig1-dev
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Rust Cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Build preprocessor
+        run: cargo install --path .
+
       - uses: peaceiris/actions-mdbook@v2
         with:
           mdbook-version: 'latest'
+
       - run: mdbook build doc
       - uses: actions/upload-pages-artifact@v5
         with:

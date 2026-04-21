@@ -14,3 +14,7 @@ edit-url-template = "https://github.com/adamcavendish/mdbook-mermaid-mmdr/edit/m
 
 [output.html.search]
 enable = true
+
+[preprocessor.mermaid-mmdr]
+command = "mdbook-mermaid-mmdr"
+theme = "modern"

@@ -21,3 +21,15 @@ Unlike client-side approaches that rely on the Mermaid JavaScript library, or to
 5. mdbook continues with the modified Markdown as usual.
 
 Because the SVG is inlined at build time, the resulting book works without any JavaScript and renders correctly even in environments where scripts are blocked.
+
+## Live Example
+
+This very book uses mdbook-mermaid-mmdr to render its diagrams. Here is the preprocessor pipeline visualized:
+
+```mermaid
+flowchart LR
+    A[Markdown with\nmermaid blocks] --> B[mdbook-mermaid-mmdr]
+    B --> C[Markdown with\ninline SVG]
+    C --> D[mdbook HTML renderer]
+    D --> E[Static HTML book]
+```

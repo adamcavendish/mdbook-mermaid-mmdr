@@ -2,5 +2,6 @@
 /target
 
 # mdbook generated outputs
+/doc/book
 /examples/*/book/
 

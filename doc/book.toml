@@ -1,0 +1,16 @@
+[book]
+title = "mdbook-mermaid-mmdr"
+description = "An mdbook preprocessor that renders Mermaid diagrams server-side using pure Rust"
+authors = ["Adam Cavendish"]
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+git-repository-url = "https://github.com/adamcavendish/mdbook-mermaid-mmdr"
+edit-url-template = "https://github.com/adamcavendish/mdbook-mermaid-mmdr/edit/master/doc/{path}"
+
+[output.html.search]
+enable = true

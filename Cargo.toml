@@ -1,6 +1,6 @@
 [package]
 name = "mdbook-mermaid-mmdr"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A mdbook preprocessor that renders mermaid diagrams using mermaid-rs-renderer"
 authors = ["Adam Cavendish <GetbetterABC@yeah.net>"]
